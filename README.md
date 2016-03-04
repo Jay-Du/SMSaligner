@@ -135,11 +135,13 @@ In this case sequence 155 overlaps 11, 15, and 27.
 
 *Memory consumption:*
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Maximum of fully indexing = genome size*4（or 8）
 
 Every kernel compressing index = genome size*0.1*(kernel number)
 
 Local sequence alignment consumption and other memory consumption = 100 M * (kernel number) + 1G
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ####b.pairwise aligner
 
@@ -148,9 +150,10 @@ Local sequence alignment consumption and other memory consumption = 100 M * (ker
 
 All of the data is split into many files, and each file is about 2G. Thus, genomesize equals to 2G. Other is similar to the above. Then,
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Maximum of fully indexing = genome size*4（or 8）= 2G*4 (or 8) =8 (or 16) G
 
 Every kernel compressing index = genome size*0.1*(kernel number) = 0.2*(kernel number)
 
 Local sequence alignment consumption and other memory consumption = 100 M * (kernel number) + 1G
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
