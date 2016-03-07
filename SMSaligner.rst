@@ -21,8 +21,10 @@ Advantages
 * Speed of ref. genome aligner
 
   For small simulated E.coli and Yeast datesets, In real human dataset, our algorithm is 5.4 times faster than BWA-mem, 70.3 and 109.5 times faster than BLASR, meanwhile, 70.3 and 79.1 times faster than BWA-mem.
+  
   For big simulated human dataset, in real human dataset, our algorithm is 5.4 times faster than BWA-mem, 85.5 and 33.8 times faster than BLASR and BWA-mem.
-In real human dataset, our algorithm is 5.4 times faster than BWA-mem, at least 40 times faster than BLASR.
+  
+  In real human dataset, our algorithm is 5.4 times faster than BWA-mem, at least 40 times faster than BLASR.
 In the first four datasets was at least 20 times faster than BWA-mem. In real human dataset, our algorithm is 5.4 times faster than BWA-mem.
 
 * Sensitivity, Correctness and scalability of ref. genome aligner
@@ -36,7 +38,8 @@ In the first four datasets was at least 20 times faster than BWA-mem. In real hu
   *Comparing SMSAligner with Daligner, MHAP and BLASR*
 
   SMSAligner is 10~20 times faster than BLASR with two model (fast and sensitivty model) in three simulation datasets and it is 1.2~5 times faster than MHAP in small E.coli and Yeast simulation datasets. In Human chr1 dataset (5x), SMSAligner is 8~20 times faster than other algorithm and it can perform better in the complexity structure datasets.
-In Yeast, A.Thaliana, D.Melanogaster and Human real datasets, SMSAligner is 5~30 times faster than the other three algorithms and its consuming-memory is much lower than the other algorithms.
+  
+  In Yeast, A.Thaliana, D.Melanogaster and Human real datasets, SMSAligner is 5~30 times faster than the other three algorithms and its consuming-memory is much lower than the other algorithms.
 
 * Sensitivity, Correctness and scalability of pairwise aligner
 
