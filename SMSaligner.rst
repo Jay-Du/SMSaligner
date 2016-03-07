@@ -21,7 +21,7 @@ Advantages
 * Speed of ref. genome aligner
 
   For small simulated E.coli and Yeast datesets, In real human dataset, our algorithm is 5.4 times faster than BWA-mem, 70.3 and 109.5 times faster than BLASR, meanwhile, 70.3 and 79.1 times faster than BWA-mem.
-For big simulated human dataset, in real human dataset, our algorithm is 5.4 times faster than BWA-mem, 85.5 and 33.8 times faster than BLASR and BWA-mem.
+  For big simulated human dataset, in real human dataset, our algorithm is 5.4 times faster than BWA-mem, 85.5 and 33.8 times faster than BLASR and BWA-mem.
 In real human dataset, our algorithm is 5.4 times faster than BWA-mem, at least 40 times faster than BLASR.
 In the first four datasets was at least 20 times faster than BWA-mem. In real human dataset, our algorithm is 5.4 times faster than BWA-mem.
 
